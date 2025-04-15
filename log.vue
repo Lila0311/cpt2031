@@ -4,7 +4,7 @@
     <div class="stats-cards">
       <el-card class="stat-card">
         <div class="stat-icon">
-          <el-icon class="icon"><BookIcon /></el-icon>
+          <el-icon class="icon"><Reading /></el-icon>
         </div>
         <div class="stat-content">
           <div class="stat-value count-up">{{ totalBooks }}</div>
@@ -123,12 +123,12 @@
 <script>
 import { mapState, mapActions } from 'vuex'
 import * as echarts from 'echarts';
-import { BookIcon, Clock, Timer } from '@element-plus/icons-vue';
+import { Reading, Clock, Timer } from '@element-plus/icons-vue';
 
 export default {
   name: 'Logs',
   components: {
-    BookIcon,
+    Reading,
     Clock,
     Timer
   },
